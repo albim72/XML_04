@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolory>
+    <opis>Palety kolorów...</opis>
+    <kolor>
+        <nazwa>czerwony</nazwa>
+        <id>34</id>
+        <paleta idpalety="1">basic34</paleta>
+    </kolor>
+    <kolor>
+        <nazwa>cyan</nazwa>
+        <id>56</id>
+        <paleta idpalety="5">cmyk2</paleta>
+    </kolor>
+</kolory>
