@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sprawozdanie rodzaj="roczne">
+    <autorzy liczba_autorow = "2">
+        <autor>
+            <obraz url="231.199.99.10/ob1.jpg" />
+            <imie>Anna</imie>
+            <nazwisko>Nowak</nazwisko>
+        </autor>
+        <autor>
+            <obraz url="231.199.99.10/ob2.jpg" />
+            <imie>Jan</imie>
+            <nazwisko>Kot</nazwisko>
+        </autor>
+    </autorzy>
+    <tytul>
+        Zestawienie zysków i strat rok 2023
+    </tytul>
+</sprawozdanie>
