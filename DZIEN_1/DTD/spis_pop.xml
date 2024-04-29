@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <?xml-stylesheet type="text/css" href="spis02.css"?>
+<!DOCTYPE SPIS [
+    <!ELEMENT SPIS (KSIAZKA)*>
+    <!ELEMENT KSIAZKA (TYTUL,AUTOR,OPRAWA,STRONY,CENA)>
+    <!ATTLIST KSIAZKA NaSkladzie (tak|nie) #REQUIRED>
+    <!ELEMENT TYTUL (#PCDATA|PODTYTUL)*>
+    <!ELEMENT PODTYTUL (#PCDATA)>
+    <!ELEMENT AUTOR (#PCDATA)>
+    <!ATTLIST AUTOR Urodzony CDATA #IMPLIED>
+    <!ELEMENT OPRAWA (#PCDATA)>
+    <!ELEMENT STRONY (#PCDATA)>
+    <!ELEMENT CENA (#PCDATA)>
+]>
 <SPIS>
     <KSIAZKA NaSkladzie="tak">
         <TYTUL>Przygody Hucka</TYTUL>
