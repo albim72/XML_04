@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="daneosoby.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<osoba>
+    <imie>Jarosław</imie>
+    <nazwisko>Nowak</nazwisko>
+    <nrLegitymacji>Legitymacja studencka: R445404</nrLegitymacji>
+    <nrLegitymacji>Przepustka: 86756756</nrLegitymacji>
+    <nrLegitymacji>Legitymacja wędkarska: 25/2023</nrLegitymacji>
+    <wiek>22</wiek>
+</osoba>
