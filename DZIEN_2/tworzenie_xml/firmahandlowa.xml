@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="firmahandlowa.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<firmaHandlowa>
+    <pracownik pesel="70111101456" NIP="7124536677" stanowisko="kierownik">
+        <nazwisko>Krupa</nazwisko>
+        <imie>Anna</imie>
+        <dzial>magazyn</dzial>
+    </pracownik>
+</firmaHandlowa>
