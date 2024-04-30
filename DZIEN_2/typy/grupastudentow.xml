@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="grupastuentow.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<grupaStudentow>
+<?xml-model href="grupastudentow.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<grupaStudentow nazwaprzedmiotu="Wstęp do ML" rodzaj="wykład">
     <student>
         <imie>Karol</imie>
         <nazwisko>Kot</nazwisko>
