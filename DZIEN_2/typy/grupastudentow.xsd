@@ -13,6 +13,9 @@
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
+            <xs:attribute name="nazwaprzedmiotu" type="xs:string"></xs:attribute>
+            <xs:attribute name="rodzaj" type="xs:string"></xs:attribute>
         </xs:complexType>
     </xs:element>
+
 </xs:schema>
