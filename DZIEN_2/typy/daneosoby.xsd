@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="osoba" type="daneOsoby">
+    </xs:element>
+    <xs:complexType name="daneOsoby">
+        <xs:sequence>
+            <xs:element name="imie" type="xs:string"></xs:element>
+            <xs:element name="nazwisko" type="xs:string"></xs:element>
+            <xs:choice>
+                <xs:element name="nrPesel" type="xs:string"></xs:element>
+                <xs:element name="NIP" type="xs:string"></xs:element>
+                <xs:element name="nrDowodu" type="xs:string"></xs:element>
+                <xs:element name="nrPaszportu" type="xs:string"></xs:element>
+                <xs:element name="nrLegitymacji" type="xs:string" maxOccurs="5"></xs:element>
+            </xs:choice>
+            <xs:element name="wiek" type="xs:integer"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
