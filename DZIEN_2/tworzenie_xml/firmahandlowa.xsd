@@ -15,7 +15,16 @@
 
     <xs:element name="firmaHandlowa">
         <xs:complexType>
-            <xs:choice>
+            <xs:sequence>
+                <xs:element name="kontrahent">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:group ref="osobaFizyczna"/>
+                            <xs:element name="upust" type="xs:decimal"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="osobaAtrybut"/>
+                    </xs:complexType>
+                </xs:element>
                 <xs:element name="pracownik">
                     <xs:complexType>
                         <xs:sequence>
@@ -26,7 +35,7 @@
                         <xs:attribute name="stanowisko" type="xs:string"></xs:attribute>
                     </xs:complexType>
                 </xs:element>
-            </xs:choice>
+            </xs:sequence>
         </xs:complexType>
     </xs:element>
 </xs:schema>
