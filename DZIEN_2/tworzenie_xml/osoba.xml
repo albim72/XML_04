@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="osoba.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<spisosob>
+    <osoba>
+        <nazwisko>Berek</nazwisko>
+        <imie>Jan</imie>
+    </osoba>
+    <osoba>
+        <nazwisko>Berek</nazwisko>
+        <imie>Anna</imie>
+        <panienskie>Kos</panienskie>
+    </osoba>
+    <osoba>
+        <nazwisko>Kowal</nazwisko>
+        <imie>Antoni</imie>
+        <dzieci>Jacek</dzieci>
+        <dzieci>Maria</dzieci>
+    </osoba>
+</spisosob>
