@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="grupaStudentow">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student" maxOccurs="20">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="imie" type="xs:string"></xs:element>
+                            <xs:element name="nazwisko" type="xs:string"></xs:element>
+                            <xs:element name="nrDowodu" type="xs:string" minOccurs="0"></xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
